@@ -2,7 +2,7 @@ var url = window.location.href;
 var swLocation = 'twittor/sw.js';
 
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');
+    // navigator.serviceWorker.register('/sw.js');
 
     if (url.includes('localhost')) {
         swLocation = '/sw.js';
